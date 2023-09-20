@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.mainPage{
+  overflow: hidden;
+}
+.App {
+  background: linear-gradient(325.44deg, #9ca1c9 49.26%, #ca7c66 95.19%);
+}
+
+.color-gradient {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #ff0000 -90.71deg, /* Red */
+    rgba(255, 0, 0, 0) 50.02deg,
+    #0000ff 129.55deg, /* Blue */
+    rgba(0, 0, 255, 0) 226.06deg,
+    #ff0000 269.29deg, /* Red */
+    rgba(255, 0, 0, 0) 410.02deg
+  );
+  filter: blur(146.875px);
+}
+
+
+.glass {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
