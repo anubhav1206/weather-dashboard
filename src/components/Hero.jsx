@@ -159,11 +159,6 @@ transition ease-in-out delay-150  duration-300">
 
       )}
       <div className="flex flex-1 justify-center items-center ml-4 relative">
-        {/* <img
-          src={House}
-          className="object-contain w-[440px] h-[440px] md:mr-4 z-[2]"
-        /> */}
-        
         <div className="purple-gradient w-[628px] h-[628px] rounded-full absolute z-[0] scale-75:scale-90 sm:scale-100 " />
       </div>
       
